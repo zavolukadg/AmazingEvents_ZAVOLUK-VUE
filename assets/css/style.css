@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #645CBB;
+    background-color: #A084DC;
+    background-color:#BFACE2;
+    background-color:#EBC7E6; */
+}
+
+header, footer{
+    background-color: #212B50;
+    color: #e0046c;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
+
+#logo{
+    height: 10vh;
+}
+
+#carouselExampleControls img{
+    object-fit: cover; 
+    object-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+h2.titulo{
+    display: flex;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.checkbox{
+    padding: 20px;
+}
+
+.card{
+    width: 18rem;
+ }
+
+ .btncard{
+    background-color: #212B50;
+    color: antiquewhite;
+ }
+
+ .btncard:hover{
+    background-color: #e0046c;;
+    color: antiquewhite;
+ }
+
+ .card>img{
+    object-fit: cover; 
+    object-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 150px;
+ }
+
+.btn-image{
+    padding-top: 3px;
+}
+
+.cardimg{
+    margin: 15px;
+}
+
+.footerimg a{
+    text-decoration: none;
+}
+
+.col > img{
+    object-fit: cover; 
+    object-position: center;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height: 40vh;
+}
+
+#headerCard{
+    background-color: #212B50;
+    color: antiquewhite; 
+}
+
+.column{
+    width: 19%;
+}
+
+
